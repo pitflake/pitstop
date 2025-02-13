@@ -178,6 +178,7 @@ main {
 .faq-cointainer {
     font-family: "Poppins", serif;
     margin: 100px;
+    font-size: 20px;
 }
 
 .faq-cointainer h1 span {
