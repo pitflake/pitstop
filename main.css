@@ -4,11 +4,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    font-family: "Montserrat", serif;
 }
 
 li, a, button {
-    font-family: "Montserrat", serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
@@ -20,6 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: #24252A;
 }
 
 .logo {
@@ -55,4 +55,43 @@ button {
 
 button:hover {
     background-color: rgba(0,136,169,0.8);
+}
+
+.footer-icon {
+    height: 15px;
+    margin: 2px;
+}
+
+footer {
+    background-color: black;
+    padding-top: 50px;
+    color: #edf0f1;
+}
+
+.footer-cointarner {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.footer-list ul {
+    list-style: none;
+}
+
+.footer-list li {
+    padding: 5px 2px;
+}
+
+.bottom-bar {
+    text-align: center;
+}
+
+.bottom-bar p {
+    padding: 10px;
+}
+
+.bottom-bar hr {
+    border-color: red;
 }
